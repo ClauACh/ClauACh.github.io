@@ -18,7 +18,7 @@ nav{
     background-color: #750F05;
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 60px;
     align-items: center;
 }
 
@@ -82,7 +82,7 @@ h2{
 }
 
 #img-prof{
-   margin: 20px 27%;
+   margin: 10px 27%;
 }
 
 #logos{
@@ -90,7 +90,7 @@ h2{
     position: inherit;
     align-content: center;
     justify-content: center;
-    margin: 20px 24%;
+    margin: 10px 24%;
 }
 
 .img-soc{
@@ -152,7 +152,7 @@ h2{
 }
 
 .hero {
-background-image: url("/imagenes/portada3.jpg");
+background-image: url("https://i.imgur.com/nc2d21Tl.jpg");
 background-size: 500px 300px;
 background-repeat: no-repeat;
 background-position-x: right; 
