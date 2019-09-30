@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Voltaire', sans-serif;
-    
 }
 
 nav{
@@ -23,7 +22,7 @@ nav{
 }
 
 .header a {
-    color: white;
+    color: #fafafa;
     text-decoration: none;
     display: flex;
     align-items: inherit;
@@ -71,13 +70,13 @@ h1{
 
 h3 {
     color: #750F05;
-    margin: 20px;
+    margin: 20px 30px;
     font-size: 22px;
 }
 
 h2{
     font-family: 'Belleza', sans-serif;
-    margin: 10px;
+    margin: 10px 20px;
     font-size: 25px;
 }
 
@@ -90,7 +89,7 @@ h2{
     position: inherit;
     align-content: center;
     justify-content: center;
-    margin: 10px 24%;
+    margin: 12px 25%;
 }
 
 .img-soc{
@@ -103,6 +102,7 @@ h2{
 #resumen{
     margin: auto;
     padding: 10px;
+    width: 75%;
 }
 .certifications {
     background: #fafafa;
@@ -160,6 +160,41 @@ background-color: #161413;
 display: flex;
 align-items: flex-start;
 flex-direction: column;
+}
+
+.portfolio{
+    margin: 20px 5%;
+    padding: 10px;
+}
+
+
+#contact{
+    background: #161413;
+    color: #fafafa;
+    height: 125px;
+    display: flex;
+    align-content: center;
+    margin-top: 25px;
+}
+
+.form-email input {
+    border-color: #aaaaaa;
+    background-image: url("/imagenes/icons8-gmail-100.png");
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: center;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.form-email{
+    margin: 0 50px;
+}
+
+#boton{
+    border-radius: 5px;
+    padding: 5px 7px;
 }
 
 .footer {
