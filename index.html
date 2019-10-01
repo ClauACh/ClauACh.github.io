@@ -10,12 +10,10 @@
     </head>
     <body>
         <header class="header">
-            
-                <figure class="logo">
+            <figure class="logo">
                     <img id="logo">Logo
                 </figure>
-                <!--<img src="/imagenes/portada2.jpg" width="500">-->
-            
+                        
             <nav class="menu">
                 <ul>
                     <li>
@@ -36,17 +34,21 @@
         </header>
         
         <section class="hero">
+        
             <h1> Mi nombre es <strong> Claudia Aparicio</strong>.<br>Soy bióloga y desarrolladora web front-end</h1>
+            
             <img id="img-prof" src="https://i.imgur.com/NaxUlGR.jpg" width="100">
-        <div id="logos">
-            <a class="soc-link" id="linkedin" href="https://www.linkedin.com/in/claudia-andrea-aparicio-ch%C3%A1vez/"><img class="img-soc" src="https://i.imgur.com/J1HvFVg.png"></a>
-            <a class="soc-link" id="github" href="https://github.com/ClauACh"><img class="img-soc" src="https://i.imgur.com/ir5pkmx.png"></a>
-            <a class="soc-link" id="twitter" href="https://twitter.com/ClauACh07"><img class="img-soc" src="https://i.imgur.com/VwiCqpc.png"></a>
+            <div id="logos">
+                <a class="soc-link" id="linkedin" href="https://www.linkedin.com/in/claudia-andrea-aparicio-ch%C3%A1vez/" target="_blank"><img class="img-soc" src="https://i.imgur.com/J1HvFVg.png"></a>
+                <a class="soc-link" id="github" href="https://github.com/ClauACh" target="_blank"><img class="img-soc" src="https://i.imgur.com/ir5pkmx.png"></a>
+                <a class="soc-link" id="twitter" href="https://twitter.com/ClauACh07" target="_blank"><img class="img-soc" src="https://i.imgur.com/VwiCqpc.png"></a>
+                         
         </div>
+     
         </section>
-
-        <h2>Mi background</h2>
-        <p id="resumen">Tengo una maestría en Biologia, enfocada hacia el área de la Ecología.
+            <div class="container">
+            <h2>Mi background</h2>
+                <p id="resumen">Tengo una maestría en Biologia, enfocada hacia el área de la Ecología.
             Durante los ultimos años empece a estudiar Desarrollo web, front-end.
 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ducimus magni suscipit nobis 
@@ -54,21 +56,24 @@
             laborum alias sint obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, autem
             facilis consequatur ex consectetur nostrum ipsa mollitia, natus magni ipsam illo. Nostrum ipsam 
             nulla voluptate quis necessitatibus quia corrupti? Quasi!
-        </p><br>
-
+                </p><br>
+            </div>
+        <div class="container">
         <h2>Desarrollo front-end</h2>
 
         <h3>Portafolio</h3>
         <section id="portafolio" class="portfolio">
-                
+            
                 <article class="project">
                     <h4 class="project-title">Nombre proyecto</h4>
                     <a class="project-url" href="">empty</a>
                     <p class="project-date"><small><strong>Fecha: </strong></small></p>
                     <p class="project-description">Descripción del proyecto</p>
                 </article>
-            </section>
+            </div>
+        </section>
 
+        <div class="container">
         <h3>Formación y experiencia</h3>
         <section id="certs" class="certifications">
             
@@ -81,7 +86,7 @@
                    <p class="project-date"><small><strong>Fecha: </strong>09/2019</small></p>
                 </div>  
                 <figure class="cert-imageContainer"> 
-                    <img class="cert-image" src="https://i.imgur.com/qPQzylI.jpg" width="270" alt="Certificado Programacion basica">
+                    <img class="cert-image" src="https://i.imgur.com/qPQzylI.jpg" width="250" alt="Certificado Programacion basica">
                 </figure>
             </article>
 
@@ -94,32 +99,49 @@
                     <p class="project-date"><small><strong>Fecha: </strong>09/2019</small></p>
                 </div>
                 <figure class="cert-imageContainer"> 
-                        <img class="cert-image" src="https://i.imgur.com/m5ORBbY.jpg" width="270" alt="Certificado Programacion basica">
+                        <img class="cert-image" src="https://i.imgur.com/m5ORBbY.jpg" width="250" alt="Certificado Programacion basica">
                 </figure>
             </article>
             <article class="course-cert">
+                    <div class="course-info">
+                        <h4 class="course-name">Desarrollo web online</h4>
+                        <p>Curso de Desarrollo web: creación de páginas web con HTML y CSS.
+                        </p>
+                        <p class="project-date"><small><strong>Fecha: </strong>10/2019</small></p>
+                    </div> 
+                    <figure class="cert-imageContainer"> 
+                            <img class="cert-image" src="https://i.imgur.com/vWUVpOc.jpg" width="250" alt="Certificado Desarrollo web online">
+                    </figure>
+                </article>
+            <article class="course-cert">
                 <div class="course-info">
                     <h4 class="course-name">R</h4>
-                    <p>Introducción a R: Una herramienta para el análisis de datos. Bases fundamentales para el uso de ambiente 
+                    <p>Introducción a R: Una herramienta para el análisis de datos. Bases fundamentales para el uso del ambiente 
                     y programación en R.
                     </p>
                     <p class="project-date"><small><strong>Fecha: </strong>10/2012</small></p>
                 </div> 
                 <figure class="cert-imageContainer"> 
-                        <img class="cert-image" src="https://i.imgur.com/ivWcrBJ.jpg" width="270" alt="Certificado Programacion basica">
+                        <img class="cert-image" src="https://i.imgur.com/ivWcrBJ.jpg" width="250" alt="Certificado Programacion basica">
                 </figure>
             </article>
-            
+        </div>   
         </section>
-          
+            </div>  
+
         <section id="contact">
-            
-            <form action="/suscription/" class="form-email">
-                <h3>Contacto</h3>
-                <label for="email">Dejame tu e-mail</label>
-                <input id="email" type="text" placeholder="@e-mail.com">
+            <h3 id="contact-title">Contacto</h3>
+            <form action="/suscription/" class="form-datos">
+                
+                <label>Nombre</label>
+                <input type="text" id="nombre-input">
+                <label for="email">E-mail</label>
+                <input id="email-input" type="text" placeholder="@e-mail.com">
+                <label for="form-message">Enviame un mensaje</label>
+                <textarea id="form-message"></textarea>
                 <button id="boton" type="submit" value="Enviar">Enviar</button>
             </form>
+        
         </section>
         
         <footer class="footer">

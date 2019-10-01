@@ -8,15 +8,15 @@ body {
 }
 
 nav{
-    display: flex;
+    
     height: inherit;
-    justify-content: center;
+     
 }
 
 .header {
     background-color: #750F05;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 60px;
     align-items: center;
 }
@@ -25,18 +25,18 @@ nav{
     color: #fafafa;
     text-decoration: none;
     display: flex;
+    justify-content: center;
     align-items: inherit;
     height: inherit;
+    width: inherit;
     padding: 0 10px;
     font-size: 20px;
-    
-    
 }
 
-.header a:hover{
-    color: #ccc;
+.header li :hover{
     cursor: pointer;
     text-shadow: 1px 1px 3px black;
+    background: #161413;
 }
 
 .header ul {
@@ -51,6 +51,8 @@ nav{
     height: inherit;
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 300px;
 }
 
 .logo {
@@ -107,11 +109,10 @@ h2{
 .certifications {
     background: #fafafa;
     margin: auto;
+    padding: 10px;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
 }
 
 .course-name{
@@ -119,8 +120,8 @@ h2{
     margin: 10px 0;
 }
 .course-cert {
-    width: 40%;
-    margin: 15px;
+    width: 30%;
+    margin: 10px 20px;
     padding: 20px;
     background: white;
     border: 2px solid gray;
@@ -130,7 +131,7 @@ h2{
 }
 
 .course-info{
-    width: 500px;
+    width: 200px;
     display: inline-block;
     
 }
@@ -140,15 +141,15 @@ h2{
     font-size: 17px;
 }
 .cert-imageContainer{
-    width: 250px;
+    width: 220px;
     margin: 10px auto;
     text-align: center;
-    padding: 10px;
+    padding: 50px 0 0 0;
     
 }
 
 .cert-image{
-    width: 200px;
+    width: 150px;
 }
 
 .hero {
@@ -171,13 +172,33 @@ flex-direction: column;
 #contact{
     background: #161413;
     color: #fafafa;
-    height: 125px;
-    display: flex;
+    height: 350px;
+    display: block;
+    justify-content: center;
     align-content: center;
     margin-top: 25px;
+    
+    padding: 20px;
 }
 
-.form-email input {
+.form-datos{
+    margin-left: 150px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#contact-title{
+    color: #fafafa;
+    margin: 10px 70px;
+    font-size: 25px;
+}
+
+label{
+    display: flex;
+    
+}
+
+#email-input {
     border-color: #aaaaaa;
     background-image: url("https://i.imgur.com/IMJyeMI.png");
     background-size: 17px;
@@ -188,13 +209,42 @@ flex-direction: column;
     border-radius: 5px;
 }
 
+input {
+    height: 25px;;
+}
+
+input, textarea{
+    margin: 7px;
+}
+
+#nombre-input{
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+#form-message{
+    border-radius: 5px; 
+    width: 350px;
+}
+
 .form-email{
-    margin: 0 50px;
+    margin: -30px 50px 0 0;
+}
+
+textarea{
+    resize: none;
+    height: 70px;
 }
 
 #boton{
     border-radius: 5px;
-    padding: 5px 7px;
+    padding: 5px 10px;
+    height: 30px;
+    margin: 0 10px;
+    justify-content: center;
+    position: relative;
+    top: -22px;
+    
 }
 
 .footer {
@@ -209,4 +259,12 @@ flex-direction: column;
 #heart{
     margin: 0 5px;
     vertical-align: middle;
+}
+
+.container {
+    display: inherit;
+    align-content: inherit;
+    flex-wrap: inherit;
+    margin-left: 70px;
+    margin-top: 25px;
 }
