@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Voltaire', sans-serif;
-    
+    font-size: 1.2em;
 }
 
 nav{
@@ -86,6 +86,45 @@ p {
     padding: 10px;
 }
 
+h1{
+    font-family: 'Belleza', sans-serif;
+    line-height: 30px;
+    text-transform: capitalize;
+    height: 60px;
+    color: white;
+    text-align: center;
+    margin: 10px 15%;
+}
+
+h3 {
+    color: #750F05;
+    margin: 0 auto;
+    font-size: 22px;
+    
+}
+
+h2{
+    font-family: 'Belleza', sans-serif;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+#resumen {
+    background: #161413;
+    color: #fafafa;
+    margin: 3em auto;
+    width: 85%;
+}
+
+.titles {
+    color: #750F05;
+}
+
+.ilustracion {
+    margin: 0 auto;
+    padding: .5em;
+}
+
 .footer {
     background: #750F05;
     color: white;
@@ -98,4 +137,84 @@ p {
 #heart{
     margin: 0 5px;
     vertical-align: middle;
+}
+
+p {
+    padding: 10px;
+    width: 75%;
+    text-indent: 1.5em;
+    margin: 0 5%;
+}
+
+#madidi-logo {
+    width: 1.2em;
+    display: inline-block;
+}
+
+#umsa {
+    width: 1em;
+    height: auto;
+}
+
+#umsl {
+    width: 2em;
+    height: auto;
+}
+
+#lmadidi,
+#link-text {
+    color: #079850;
+}
+
+.docs a {
+    color: #221375;
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 769px){
+    .header{
+        display: block;
+        height: auto; 
+    }
+    .header ul {
+        display: initial;
+    }
+    p {
+        width: auto;
+        font-size: .9em;
+    }
+    .content{
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    #resumen {
+        width: 100%;
+        padding: .5em 1.5em;
+        text-align: center;
+    }
+    #madidi-logo{
+        display: inline-block;
+        justify-content: center;
+        align-content: center;
+    }
+    h2 {
+        font-size: 1em;
+        margin: 0.5em 2em;
+    }
+    h3{
+        margin: 0 2.5em;
+    }
+    .ilustracion{
+        width: 50%;
+        height: auto;
+        padding: .5em;
+    }
 }
