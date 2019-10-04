@@ -441,11 +441,15 @@ textarea{
 
     .header a {
         font-size: 1.2em;
+        border: #aaaaaa 1px solid;
+        padding: 1em;
+        justify-content: center;
+        align-content: center;
     }
 
     .menu {
         position: fixed;
-        background: rgb(22, 20, 19, .95);
+        background: rgb(22, 20, 19, .9);
         z-index: 3;
         top: 0;
         left: -100vw;
