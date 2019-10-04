@@ -7,7 +7,7 @@
         <!--<link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px">-->
         <link href="https://fonts.googleapis.com/css?family=Voltaire&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width = device-width, initial-sacel = 1.0">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     </head>
     <body>
             <span class="icon-menu burguer-button" id="burguer-menu"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span></span>            
@@ -19,7 +19,7 @@
             <nav class="menu">
                 <ul>
                     <li>
-                        <a class="link-cert" href="#certs">Certifications and skills</a>
+                        <a class="link-cert" href="#skill-certs">Certifications and skills</a>
                     </li>
                     <li>
                         <a class="link-port" href="#portafolio">Portfolio</a>
@@ -48,34 +48,48 @@
         </section> 
             <div class="container">
             <h2>My background</h2>
-                <p id="resumen"><span class="ind">Tengo una maestría en Biologia, enfocada hacia el área de la Ecología.
-            Durante los ultimos años empece a estudiar Desarrollo web, front-end.
-
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ducimus magni suscipit nobis 
-            fugit atque sequi cumque ab esse sed excepturi cupiditate facere, architecto asperiores voluptate, 
-            laborum alias sint obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, autem
-            facilis consequatur ex consectetur nostrum ipsa mollitia, natus magni ipsam illo. Nostrum ipsam 
-            nulla voluptate quis necessitatibus quia corrupti? Quasi! </span>
+                <p id="resumen"><span class="ind">I have a Masters degree in Biology and I am a self-taught web developper.
+                    Some of my sills includes statistical analysis and coding in R; web developing with HTML, CSS and JavaScript;
+                    some knowledge in Arc-GIS, basic understanding of Python. Computers: building and fixing/maintenance.
+                    I am analytical, a quick learner and autodidact; and enthusiastic of strategy games and puzzles.
+                     </span>
                 </p><br>
             </div>
 
         <div class="container">
-        <h2>Front-end web development</h2>
+        <h2>Web development (Front-end)</h2>
 
         <h3>Portfolio</h3>
         <section id="portafolio" class="portfolio">
             
                 <article class="project">
-                    <h4 class="project-title">Nombre proyecto</h4>
-                    <a class="project-url" href="">empty</a>
-                    <p class="project-date"><small><strong>Fecha: </strong></small></p>
-                    <p class="project-description">Descripción del proyecto</p>
+                    <h4 id="project-titles" class="project-title">Taxonomy: Interactive key</h4>
+                    <a class="project-url" href="">In construction</a>
+                    <p class="project-date"><small><strong>Date: </strong></small></p>
+                    <p class="project-description">Project description</p>
                 </article>
             </div>
         </section> 
 
         <div class="container">
             <h3>Certifications and skills</h3>
+        <h4 id="skill-title">Skills</h4>
+        <section id="skill-certs" class="skills">
+            
+            
+                <div class="container">
+                    <div class="bar front advanced" data-skill= "HTML"></div>
+                    <div class="bar front advanced" data-skill= "CSS"></div> 
+                    <div class="bar front intermediate" data-skill= "JavaScript"></div>       
+                    <div class="bar front learning" data-skill= "Wordpress"></div>
+                    <div class="bar back learning" data-skill= "Python"></div>
+                    <div class="bar other advanced" data-skill= "R"></div>
+                    <div class="bar other learning" data-skill= "Arc-Gis"></div>
+                    
+                </div>
+        </section>
+
+        <h4 id="title-certs">Certifications</h4>
         <section id="certs" class="certifications">
             
             <article class="course-cert">
@@ -114,6 +128,18 @@
                     <figure class="cert-imageContainer"> 
                             <img class="cert-image" src="https://i.imgur.com/vWUVpOc.jpg" width="250" alt="Certificado Desarrollo web online">
                     </figure>
+            </article>
+
+            <article class="course-cert">
+                <div class="course-info">
+                    <h4 class="course-name">Responsive design</h4>
+                    <p>Aplicación de diseño web adaptable a cualquier tipo de pantalla, dispositivo y resolución con HTML5 y CSS3.
+                    </p>
+                    <p class="project-date"><small><strong>Fecha: </strong>10/2019</small></p>
+                </div> 
+                <figure class="cert-imageContainer"> 
+                        <img class="cert-image" src="https://i.imgur.com/gLL62jq.jpg" width="250" alt="Certificado Diseño responsivo">
+                </figure>
             </article>
 
             <article class="course-cert">

@@ -78,7 +78,7 @@ h1{
     height: 60px;
     color: white;
     text-align: center;
-    margin: 10px 15%;
+    margin: 10px 17%;
 }
 
 h3 {
@@ -109,7 +109,7 @@ h2{
 .img-soc{
     display: flex;
     margin: 0 12px;
-    width: 30px;
+    width: 40px;
 
 }
 
@@ -309,6 +309,86 @@ textarea{
     
 }
 
+  
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+
+  .skills{
+      width: 60%;
+    
+  }
+
+  .bar{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #750F05;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: rgb(117, 15, 5, .9) 
+}
+  .bar.back::before{
+    background-color: rgb(31, 55, 98, .9);
+  }
+
+  .bar.other::before {
+      background-color: rgb(24,156,76, .9);
+  }
+  
+  .bar.learning::before{
+    width: calc(20% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(60% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(80% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(100% - 10px);
+  }
+  
+#title-certs {
+    margin: 1.5em auto 0;
+}
+
 @font-face {
     font-family: 'icomoon';
     src:  url('../icomoon/fonts/icomoon.eot?287h01');
@@ -464,7 +544,9 @@ textarea{
    .menu.is-active{
        left: 0;
    }
-
+   .certifications{
+       padding: .5em;
+   }
     .course-cert{
         display: block;
         width: 100%;
@@ -537,6 +619,15 @@ textarea{
         display: flex;
         align-content: center;
         justify-content: center;
+    }
+    .img-soc{
+        width: 2em;
+    }
+    .skills{
+        margin: .5em auto 1em;
+    }
+    #skill-title, #title-certs {
+        margin: 0 2em;
     }
 }
 
