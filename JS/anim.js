@@ -1,4 +1,4 @@
-var string = "Biologist and Front-end Web develloper"; /* type your text here */
+var string = "Biologist and Front-end Web developer"; /* type your text here */
 var array = string.split("");
 var timer;
 
